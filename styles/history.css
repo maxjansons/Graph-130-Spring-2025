@@ -22,3 +22,7 @@ section {
     border-radius: 5px;
     padding: 10px;
 }
+.tim {
+    /* flex-grow: 4; */
+    background-color: lightblue;
+}
