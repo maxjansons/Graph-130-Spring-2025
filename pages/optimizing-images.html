@@ -3,7 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Optimizing Images</title>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link href="../styles/nav.css" rel="stylesheet" type="text/css">
+    <style>
+        .barbie {
+            background-color: pink;
+            width: 650px;
+            padding: 7px;
+            margin: 5px;
+            float: left;
+            font-family: "Kiwi Maru", serif;
+        }
+
+
+        .womp {
+            display: inline-block;
+            color:white;
+            vertical-align: top;
+            margin-left: 5px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .leo {
+            background-color: chartreuse;
+            padding: 0px 5px 5px 0px;
+        }
+
+        .leo img {
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;
+
+        }
+
+        h1 {
+            font-family: "Berkshire Swash", serif;
+            color: hotpink;
+        }
+    </style>
 </head>
 <body>
     <div id="nav-placeholder"></div>
@@ -14,6 +54,56 @@
             document.getElementById('nav-placeholder').innerHTML = data;
             });
        </script>
-    
+    <h1>Optimizing Images</h1>
+    <article class="barbie">
+        <img src="../images/80.jpg" alt="80 percent jpeg sample" height="300px">
+        <section class="womp">
+            <p>80% jpeg - 72.84K<br>Very good quality</p>
+        </section>
+    </article>
+    <article class="barbie">
+        <img src="../images/40.jpg" alt="40 percent jpeg sample" height="300px">
+        <section class="womp">
+            <p>40% jpeg - 23.97K<br>Medium or low quality</p>
+        </section>
+    </article>
+    <article class="barbie">
+        <img src="../images/256.gif" alt="256 color GIF sample" height="300px">
+        <section class="womp">
+            <p>256 color GIF - 105.9K<br>Medium quality</p>
+        </section>
+    </article>
+    <article class="barbie">
+        <img src="../images/64.gif" alt="64 color GIF sample" height="300px">
+        <section class="womp">
+            <p>64 color GIF - 69.38K<br>Low quality</p>
+        </section>
+    </article>
+    <article class="barbie">
+        <img src="../images/8.gif" alt="8 color GIF sample" height="300px">
+        <section class="womp">
+            <p>8 color GIF - 29.09K<br>Very low quality</p>
+        </section>
+    </article>
+    <article class="barbie">
+        <img src="../images/24.png" alt="PNG 24 sample" height="300px">
+        <section class="womp">
+            <p>PNG 24 - 257.5K<br>Very good quality</p>
+        </section>
+    </article>
+    <div class="clear">
+        <article class="leo">
+            <img src="../images/01.jpg" alt="Barbie and Midge doll travel cases" width="460px">
+            <img src="../images/02.jpg" alt="Barbie dolls" width="460px">
+            <img src="../images/03.jpg" alt="Barbie dolls with furniture" width="460px">
+            <img src="../images/04.jpg" alt="Vintage Barbie dolls with car" width="460px">
+            <img src="../images/05.jpg" alt="The Magic Roundabout Board Game" width="460px">
+            <img src="../images/06.jpg" alt="Labubu dolls" width="460px">
+            <img src="../images/07.jpg" alt="Monchhichi dolls" width="460px">
+            <img src="../images/08.jpg" alt="Snoopy figurines" width="460px">
+            <img src="../images/09.jpg" alt="Pile of colorful toys" width="460px">
+            <img src="../images/10.jpg" alt="Pile of colorful toys" width="460px">
+        </article>
+    </div>
 </body>
 </html>
