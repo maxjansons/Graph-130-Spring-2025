@@ -10,9 +10,9 @@ body, header, main, footer, section, article {
     font-size: 23px;
 }
 
-header, nav ul {
+nav ul {
     display:grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 header {
@@ -41,19 +41,18 @@ header {
     font-size: 35px;
     font-weight: lighter;
     text-align: center;
-    font-family: "GFS Didot", serif;
-    font-weight: lighter;
-    font-style: normal;
 }
 
 .nav {
     background-color: olivedrab;
     padding: 1px;
+    text-align: center;
 }
 
 .nav li {
         list-style: none;
-    margin: 5px;
+    /* margin: 5px; */
+    text-align: center;
 }
 
 .nav a:hover {
@@ -63,10 +62,14 @@ header {
 main {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 600px 600px 1fr;
     gap: 20px;
     /* margin: 20px 300px 300px 20px; */
 }
+
+/* .painting, .section1, .section2, .smoking, .chair, .section3 {
+    background-color: darkslategrey;
+} */
 
 .painting {
     height: auto;
@@ -82,7 +85,11 @@ main {
     grid-column: auto;
 }
 
-section, h2 {
+.text2 {
+    padding: 19px;
+}
+
+section, h2, footer, .nav a {
 font-family: "GFS Didot", serif;
   font-weight: 400;
   font-style: normal;
@@ -93,20 +100,28 @@ font-family: "GFS Didot", serif;
     font-family: "Homemade Apple", cursive;
   font-weight: 400;
   font-style: normal;
-  margin: 30px;
+  margin: 5px;
+  margin-bottom: 0;
+  line-height: 50px;
 }
 
 .fair-play {
     font-size: 16px;
     text-align: right;
     margin-right: 15px;
+    margin-top: 0;
 }
 
 .smoking {
     background-image: url(../images/girl-smoking.jpg);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    font-size: 17px;
 }
 
    /* .toggle-button {
@@ -137,9 +152,10 @@ font-family: "GFS Didot", serif;
     } */
 
 @media  screen and (max-width: 800px) {
-    main, footer, header, section, .pure-u-1-2, .pure-g {
-        display: block;
-        width: 95%;
+    main, footer, header, section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
         margin: 0;
     }
     .header-img {
@@ -149,7 +165,10 @@ font-family: "GFS Didot", serif;
     }
 
     .painting {
-        align-content: center;
+        background-image: url(../images/painting.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
    /* .nav-bar {
