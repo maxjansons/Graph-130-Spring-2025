@@ -62,7 +62,7 @@ h1 {
 
 
 
-.text1 h2 {
+.container h2 {
     font-family: "Homemade Apple", cursive;
 }
 
@@ -101,6 +101,10 @@ h1 {
 
 .text3 {
     width: 500px;
+}
+
+.garm {
+    width: 700px;
 }
 
 section, h2, footer, .nav a {
