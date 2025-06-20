@@ -43,12 +43,28 @@ nav ul {
     background-color: darkolivegreen;
 }
 
+.head {
+    background-image: url(../images/tuulikki-boat.jpg);
+    background-size: cover;
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    margin-top: 0;
+}
+
 h1 {
     font-family: "Homemade Apple", cursive;
     font-size: 5em;
     text-align: center;
+    margin-top: 0;
+    padding-bottom: 500px;
 }
 
+
+
+.text1 h2 {
+    font-family: "Homemade Apple", cursive;
+}
 
 
 .container {
