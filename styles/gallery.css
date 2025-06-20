@@ -13,19 +13,19 @@ nav ul {
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 60px;
+    padding: 30px;
 }
 
 .nav a {
     background-color: olivedrab;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 5px;
     /* margin: 2px; */
     border-radius: 5px;
     transition: background-color 0.3s ;
     font-family: "GFS Didot", serif;
-    font-size: 80px;
+    font-size: 20px;
     font-weight: lighter;
     text-align: center;
 }
