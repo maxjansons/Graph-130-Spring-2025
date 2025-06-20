@@ -47,7 +47,9 @@
 
 .container .box .dream img {
     padding-bottom: 60px;
-    border-radius: 15px;
+    border-radius: 15px 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     width: 100%;
 }
 
@@ -81,7 +83,6 @@
 .container .btn {
     font-size: 5em;
     margin: 40px 0 70px 0;
-    background: #222;
     padding: 25px 50px;
     border-radius: 15px;
 }
@@ -93,7 +94,33 @@
   font-weight: bold;
 }
 }
-@media screen and (max-width: 1500px) {
+
+@media screen and (max-width: 1900px) {
+    .container .box {
+    flex-direction: column;
+}
+.container .box .dream {
+    width: 100%;
+}
+.container .heading h3 {
+    font-size: 8em;
+}
+.container .btn {
+    font-size: 3em;
+    margin: 40px 0 70px 0;
+    padding: 15px 40px;
+    border-radius: 15px;
+}
+
+.container .btn a {
+  color: white;
+  letter-spacing: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+}
+
+@media screen and (max-width: 900px) {
     .container .box {
     flex-direction: column;
 }
@@ -106,7 +133,6 @@
 .container .btn {
     font-size: 2em;
     margin: 40px 0 70px 0;
-    background: #222;
     padding: 15px 40px;
     border-radius: 15px;
 }
