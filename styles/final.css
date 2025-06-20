@@ -59,27 +59,20 @@ header {
     background-color: darkolivegreen;
 }
 
-main {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 600px 600px 1fr;
-    gap: 20px;
-    /* margin: 20px 300px 300px 20px; */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+
 }
 
-/* .painting, .section1, .section2, .smoking, .chair, .section3 {
-    background-color: darkslategrey;
-} */
-
-.painting {
-    height: auto;
-    background-image: url(../images/painting.jpg);
-    background-size: 600px;
-    background-position:top right;
-    background-repeat: no-repeat;
-    margin: 10px;
-    
+.container h2 {
+    font-family: "Homemade Apple", cursive;
+    font-size: 2em;
 }
+
 
 .text1 {
     grid-column: auto;
@@ -89,7 +82,7 @@ main {
     padding: 19px;
 }
 
-section, h2, footer, .nav a {
+p, footer, .nav a {
 font-family: "GFS Didot", serif;
   font-weight: 400;
   font-style: normal;
