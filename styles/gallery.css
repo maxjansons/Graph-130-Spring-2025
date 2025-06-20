@@ -16,19 +16,19 @@ nav ul {
 .nav a {
     text-decoration: none;
     color: white;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 5px;
+    padding: 45px;
+    margin: 10px;
+    border-radius: 15px;
     transition: background-color 0.3s ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-size: 5.5em;
     font-weight: lighter;
     text-align: center;
 }
 
 .nav {
     background-color: #7CA37C;
-    padding: 1px;
+    padding: 70px;
     text-align: center;
 }
 
