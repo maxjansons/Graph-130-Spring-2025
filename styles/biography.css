@@ -107,6 +107,10 @@ h1 {
     width: 700px;
 }
 
+.hobbit {
+    width: 600px;
+}
+
 section, h2, footer, .nav a {
 font-family: "GFS Didot", serif;
   font-weight: 400;
